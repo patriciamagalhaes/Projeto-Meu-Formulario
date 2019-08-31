@@ -1,0 +1,142 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> Projeto Meu Formulário</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Patrícia Magalhães">
+        <meta name="description" content="descrição bacanuda">
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <!--Icones de Redes Sociais--> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/estilo.css">
+       
+        
+        
+    
+    </head>
+    <body>
+        
+        <header class="main-header">
+            <a href="index.html" class="main-header-link imagem-link">
+                <img src="img/bg1.jpg" alt="foto">
+            </a>
+            <h1 class="main-header-title">
+               <br>
+                <strong> Web Developer e Design</strong>,<br> 
+                                
+            </h1>
+            <p>
+                Cursos de Web Fundamentos: HTML5, CSS3 e Java Script.
+            </p>
+        </header>
+        
+        <main class="main-content">
+           
+                <h2>Entre em Contato</h2> 
+            
+            <section>
+                <div class="row">
+                    <div class="col-2-3">
+                        <form action="mailto:patricia17magalhaes@gmail.com" method="GET">
+                            <div class="row">
+                                <div class="col-2">
+                                    <label for="nome">Nome</label>
+                                    <input placeholder="nome completo" type="text" required name="nome" id="nome">
+                                </div>
+                                <div class="col-2">
+                                    <label for="email">Email</label>
+                                    <input type="text" required name="email" id="email">
+                                </div>
+                            </div>
+
+                            <label for="mensagem">Digite sua mensagem</label>
+                            <textarea required name="mensagem" id="mensagem"></textarea>
+
+                            <input type="submit" value="Enviar" class="button-default button-default-big"/>
+                            
+                            <input type="Reset" value="Limpar" class="button-default button-default-stroke button-default-big"/>
+                        </form>
+                    </div>
+                    
+                    <div class="col-1-3">
+                        <address>
+                
+                            <p>
+                                <span>Endereço: </span>
+                                1234 Av.Cenourão, Lins/SP
+                            </p>
+
+                            <p>
+                                <span>Telefone: </span>
+                                000-000-000
+                            </p>
+                            <p>
+                                <span>E-mail: </span>
+                                email@server.com
+                            </p>
+                        </address>
+                    </div>
+                </div> <!-- row -->
+                 
+            </section>
+                
+                
+            <section>
+                <h3>Formulário de Cursos Web Fundamentos</h3>
+                
+                <p>Faça seu cadastro e adquira seu curso!</p>
+                
+                <form action="mailto:patricia17magalhaes@gmail.com" method="GET">
+                
+                    <label for="name">Nome</label>
+                    <input type="text" required name="name" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" required name="email" id="email">
+
+                    <select>
+                        <option value="0"> Selecione ...</option>
+                        <option value="1"> HTML</option>
+                        <option value="2"> CSS</option>
+                        <option value="3"> Javascript</option>                    
+                    </select>
+
+                    <label><input type="radio" value="baixa" name="prioridade"> Baixa Prioridade</label>
+                    <label><input type="radio" value="media" name="prioridade"> Média Prioridade</label>
+                    <label><input type="radio" value="alta" name="prioridade"> Alta Prioridade</label>
+
+                    <label> <input type="checkbox" name="copy" value="1">Envie-me uma cópia</label>
+                    <label> <input type="checkbox" name="human" value="1">Sou Humano</label>
+
+                    <label for="msg">Mensagem:</label>                
+                    <textarea placeholder="digite uma mensagem" required msg="msg" id="msg"></textarea>
+
+                    <input type="submit" class="button-default button-default-big" value="Enviar">
+                    <input type="reset" class="button-default button-default-stroke button-default-big" value="Limpar">
+                </form>
+                
+            </section>
+        </main>
+        
+        <footer class="main-footer">
+       
+            <ul class="copyright">
+                <li>© Untitled</li>
+                   <li><a class="fa fa-facebook" aria-hidden="true"></a></li>
+                   <li><a class="fa fa-instagram" aria-hidden="true"></a></li>
+                   <li><a class="fa fa-twitter" aria-hidden="true"></a></li>
+                   <li><a class="fa fa-envelope-square" aria-hidden="true"></a></li>
+           </ul>
+            
+        </footer>
+			
+       
+        <script type="text/javascript" src="js/index.js"></script>
+        
+    </body>
+</html>
